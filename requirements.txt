@@ -1,0 +1,5 @@
+python-telegram-bot>=21,<23
+Flask>=3,<4
+razorpay>=1.4
+qrcode[pil]>=7.4
+python-dotenv>=1.0
