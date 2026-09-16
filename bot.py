@@ -263,3 +263,5 @@ if __name__ == "__main__":
     application.add_handler(CallbackQueryHandler(show_videos, pattern="^videos$"))
     application.add_handler(CallbackQueryHandler(buy_video, pattern=r"^buy:\d+$"))
     application.run_polling()
+    print("TELEGRAM BOT POLLING STARTING...", flush=True)
+application.run_polling()
